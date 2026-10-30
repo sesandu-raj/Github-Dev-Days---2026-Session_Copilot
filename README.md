@@ -137,7 +137,7 @@ If the version command is unavailable in your installed release, check the CLI h
 copilot help
 ```
 
-## 1. Install GitHub CLI on macOS
+## Install GitHub CLI on macOS
 
 ```
 brew install gh
@@ -149,7 +149,7 @@ Verify:
 gh --version
 ```
 
-## 2. Authenticate with your GitHub account
+## Authenticate with your GitHub account
 
 ```
 gh auth login
