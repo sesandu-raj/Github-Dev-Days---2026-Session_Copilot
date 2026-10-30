@@ -137,6 +137,43 @@ If the version command is unavailable in your installed release, check the CLI h
 copilot help
 ```
 
+## 1. Install GitHub CLI on macOS
+
+```
+brew install gh
+```
+
+Verify:
+
+```
+gh --version
+```
+
+## 2. Authenticate with your GitHub account
+
+```
+gh auth login
+```
+
+Choose:
+
+1. GitHub.com
+    
+2. HTTPS
+    
+3. Authenticate Git with your GitHub credentials
+    
+4. Login with a web browser
+    
+5. Copy the one-time code and authorize it.
+    
+
+Verify authentication:
+
+```
+gh auth status
+```
+
 ## 5. Authenticate and start a session
 
 ### Step 1 — Open your project folder
